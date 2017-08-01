@@ -10,7 +10,7 @@ var dir_html = path.resolve(__dirname, 'html');
 var dir_build = path.resolve(__dirname, 'build');
 
 module.exports = {
-    entry: path.resolve(dir_js, 'todos.js'),
+    entry: path.resolve(dir_js, 'main.js'),
     output: {
         path: dir_build,
         filename: 'bundle.js'
